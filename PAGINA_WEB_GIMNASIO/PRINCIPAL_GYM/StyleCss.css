@@ -1,0 +1,255 @@
+body {
+    margin: 30px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+nav ul li:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.submenu li {
+    margin: 0;
+}
+
+.submenu li a {
+    padding: 8px 20px;
+    display: block;
+    color: #ffffff;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container {
+    width: 40%;
+   
+}
+
+.image-container img {
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.description {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+    text-align: justify; 
+}
+
+.form {
+    background-color: #e0e0e0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+.video-section {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+}
+
+.video-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.texto-video {
+    flex: 1;
+    padding: 0 10px;
+    text-align: justify;
+    display:flex;
+    float: inline-start;
+}
+
+.imagenes-video {
+    display: flex;
+    display:contents;
+    float: right;
+
+}
+
+.imagenes-video img {
+    width: 60%;
+    float: inline-end;
+
+}
+.fondo{
+    justify-content: center;
+
+}
+.asesoramiento {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.entrenador {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.entrenador img {
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.info {
+    flex: 1;
+}
+
+.info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.info p {
+    margin: 0;
+    color: #666;
+}
+
+/* Estilos para la sección de cita */
+.cita {
+    background-color: #e0e0e0;
+    padding: 50px 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input,
+form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+}
+
+form select {
+    width: 100%;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+

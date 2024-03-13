@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powerbuilder Gym</title>
+    <link rel="stylesheet" href="StyleCss.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>POWERBUILDER GYM</h1>
+            <nav>
+                <ul>
+                    <li><a href="../gimnasiomenú.html">Inicio</a></li>
+                    <li>
+                        <a href="#">Conócenos</a>
+                        <ul class="submenu">
+                            <li><a href="#">Contactanos</a></li>
+                            <li><a href="#">Acerca de</a></li>
+                            <li><a href="#">Trabaja con nosotros</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Productos</a>
+                        <ul class="submenu">
+                            <li><a href="../SUPLEMENTOS/suplementos.html">Suplementos</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Servicios</a>
+                        <ul class="submenu">
+                            <li><a href="#">Rutinas</a></li>
+                            <li><a href="../ASESORAMIENTO/asesoramiento.html">Entrenadores</a></li>
+                            <li><a href="#">Nutricionista</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="asesoramiento">
+        <div class="container">
+            <h2>Nuestros Entrenadores</h2>
+            <div class="entrenador">
+                <img src="../../IMAGENES/entrenadora1.jpg" alt="Entrenador 1">
+                <div class="info">
+                    <h3>Dimitrova Wolfestein</h3>
+                    <p>Años de Experiencia: 15 años</p>
+                    <p>Medallas y Logros: Campeón Nacional de Levantamiento de Pesas</p>
+                </div>
+            </div>
+
+            <div class="entrenador">
+                <img src="../../IMAGENES/entrenadora2.jpg" alt="Entrenador 2">
+                <div class="info">
+                    <h3>Winifer Corolla</h3>
+                    <p>Años de Experiencia: 12 años</p>
+                    <p>Medallas y Logros: Medalla de Oro en Atletismo</p>
+                </div>
+            </div>
+
+            <div class="entrenador">
+                <img src="../../IMAGENES/entrenador3.jpg" alt="Entrenador 3">
+                <div class="info">
+                    <h3>Wilfrido Vargas</h3>
+                    <p>Años de Experiencia: 8 años</p>
+                    <p>Medallas y Logros: Medalla de Plata en Halterofilia</p>
+                </div>
+            </div>
+
+            <div class="entrenador">
+                <img src="../../IMAGENES/curso-de-entrenador-de-power-lifting_310x310.webp" alt="Entrenador 4">
+                <div class="info">
+                    <h3>Rainstain Kuterfield</h3>
+                    <p>Años de Experiencia: 10 años</p>
+                    <p>Medallas y Logros: Campeón Regional de CrossFit</p>
+                </div>
+            </div>
+
+            <div class="entrenador">
+                <img src="../../IMAGENES/gimnasio.webp" alt="Entrenador 5">
+                <div class="info">
+                    <h3>Meana Wolf</h3>
+                    <p>Años de Experiencia: 6 años</p>
+                    <p>Medallas y Logros: Subcampeón Nacional de Natación</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cita">
+        <div class="container">
+            <h2>Programar Cita con el Entrenador</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+                <div class="form-group">
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha" name="fecha" required>
+                </div>
+                <div class="form-group">
+                    <label for="hora">Hora:</label>
+                    <input type="time" id="hora" name="hora" required>
+                </div>
+                <div class="form-group">
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo" name="sexo">
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Derechos Reservados &copy; 2024 GYM POWERBUILDING</p>
+        </div>
+    </footer>
+</body>
+</html>
