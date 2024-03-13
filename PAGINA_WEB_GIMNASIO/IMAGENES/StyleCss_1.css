@@ -1,0 +1,156 @@
+body {
+    margin: 30px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+nav ul li:hover .submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.submenu li {
+    margin: 0;
+}
+
+.submenu li a {
+    padding: 8px 20px;
+    display: block;
+    color: #ffffff;
+}
+.suplementos {
+    padding: 20px 0;
+    background-color: #f4f4f4;
+}
+
+.suplemento {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.suplemento img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.comentarios {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.comentarios .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.comentarios form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.comentarios form .form-group {
+    margin-bottom: 15px;
+}
+
+.comentarios form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.comentarios form input[type="text"],
+.comentarios form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comentarios form textarea {
+    height: 100px;
+}
+
+.comentarios form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comentarios form button:hover {
+    background-color: #0056b3;
+}
+       
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
