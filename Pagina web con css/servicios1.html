@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="inde.html">Volver</a>
+    <H1>NUESTRAS TARIFAS</H1>
+    <p>Para poder enviarte mas informacion necesitamos los siguentes datos:</p>
+    <h2>Fecha de Nacimiento</h2>
+    <form>
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br><br>
+
+    </form>
+    <h2>Verficacion de identidad</h2>
+    <p>Para poder verificar tu identidad necesitamos <br>que suba una foto de tu dni y un recibo.
+    </p>
+    <form action="procesar_archivos.php" method="post" enctype="multipart/form-data">
+        <label for="imagen">Selecciona una imagen:</label><br>
+        <input type="file" id="imagen" name="imagen" accept="image/*" required><br><br>
+
+        <label for="archivo">Selecciona un archivo:</label><br>
+        <input type="file" id="archivo" name="archivo" required><br><br>
+
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefono">Teléfono Móvil:</label><br>
+        <input type="tel" id="telefono" name="telefono" required placeholder="Formato: 123-456-7890"><br><br>
+        
+
+        <input type="submit" value="Enviar">
+    </form>
+    
+
+    
+</body>
+</html>

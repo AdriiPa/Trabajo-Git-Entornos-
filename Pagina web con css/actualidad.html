@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIEMPRE AL TANTO</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+      img {
+        float: left;
+        margin-right: 20px;
+      }
+      select {
+        float: right;
+        background-color: violet;
+        color: lavender;
+        padding: 10px;
+        border-radius: 4px;
+        border: 1px solid violet;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="inde.html">volver</a>
+
+    <div class="container">
+      <h1>SIEMPRE AL TANTO</h1>
+      <h2>Consulta la ultima información</h2>
+      <img src="imagenes/bitcoin2.jpg" alt="Imagen" width="250" height="250" />
+      <form>
+        <label for="categoria">categoria</label>
+        <select id="categoria" name="categoria" onchange="redirigir()">
+          <option value="divisa">Divisa</option>
+          <option value="bolsa">Bolsa de valores</option>
+          <option value="prevencion">Prevención de riesgos</option>
+          <option value="bienes">Bienes e inmuebles</option>
+        </select>
+      </form>
+    </div>
+
+    <script>
+      function redirigir() {
+        var seleccion = document.getElementById("categoria").value;
+        if (seleccion === "divisa") {
+          window.location.href = "https://www.eleconomista.es/cruce/EURUSD";
+        } else if (seleccion === "bolsa") {
+          window.location.href = "https://www.expansion.com/mercados.html";
+        } else if (seleccion === "prevencion") {
+          window.location.href =
+            "https://www.cesce.es/es/w/asesores-de-pymes/claves-evitar-riesgo-financiero";
+        } else if (seleccion === "bienes") {
+          window.location.href =
+            "https://humanidades.com/bienes-muebles-e-inmuebles/";
+        }
+      }
+    </script>
+  </body>
+</html>
