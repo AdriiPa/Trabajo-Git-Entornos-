@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkblue;
+}
+
+.body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+.menu p{
+    width: 100%;
+    text-align: center;
+    background: red;
+    color: white;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.barra{
+    text-align: center;
+    background-color: black;
+    color: red;
+}
+
+.barra > a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(1, 255, 1);
+    background-color: inherit;
+    margin-right: 100px;
+}
+h4{
+    color: rgb(1, 255, 1);
+    background-color: black;
+    font-size: 20px
+}
+
+.laLiga p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: aqua;
+    padding-top: 150px;
+    margin-bottom: 25px;
+    overflow: auto;
+}
+
+img{
+    margin-left: 20px;
+}
+
+img#jornada{
+    float: right;
+    padding-top: 0;
+    width: 1000px;
+    height: 500px;
+    margin: 10px;
+}
+
+.conocenos{
+    position: relative;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.conocenos:hover .opciones {
+    display: block;
+}
+
+.opciones {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.opciones >a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: blueviolet;
+}
+
+.opciones a:hover{
+    background-color: #f1f1f1;
+}
+
+.boton{
+    position: relative;
+    left: 90%;
+    height: 45px;
+    width: 100px;
+    font-size: 25px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: white;
+}

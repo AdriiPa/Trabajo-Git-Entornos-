@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+
+}
+
+.menu p{
+    width: 100%;
+    text-align: center;
+    background: red;
+    color: white;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.barra{
+    text-align: center;
+    background-color: black;
+    color: red;
+}
+
+.barra > a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(1, 255, 1);
+    background-color: inherit;
+    margin-right: 100px;
+}
+
+h4{
+    color: rgb(1, 255, 1);
+    background-color: black;
+    font-size: 20px
+}
+
+.conocenos{
+    position: relative;
+    display: inline-block;
+    margin-right: 100px;
+
+}
+
+.conocenos:hover .opciones {
+    display: block;
+}
+
+.opciones {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.opciones >a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: blueviolet;
+}
+
+.opciones a:hover{
+    background-color: #f1f1f1;
+}
+
+.noticias {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+.noticias img{
+    width: 500px;
+    height: 300px;
+}
+
+p{
+    text-decoration: none;
+    margin: auto;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.noticias a:hover{
+    color: red;
+}
+
+.titular1{
+    margin-right:100px
+}
+
+.boton{
+    position: relative;
+    left: 90%;
+    height: 45px;
+    width: 100px;
+    font-size: 25px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: white;
+}
+/*
+.body{
+    position: fixed;
+    top: 0%;
+}
+
+.menu{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: green;
+    color: black;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    height: 60px;
+    
+}
+
+
+.barralateral{
+    width: 25%;
+    float: left;
+    height: 400px;
+    background: orange;
+    border: red;
+}
+
+.contenido{
+    width: 75%;
+    float: left;
+    height: 400px;
+    background: aqua;
+}
+
+.pie{
+    width: 100%;
+    float: left;
+    height: 25%;
+    background-color: darkviolet;
+}
+
+.cuadrado{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}*/

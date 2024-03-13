@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hotpink;
+}
+
+.body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.menu p{
+    width: 100%;
+    text-align: center;
+    background: red;
+    color: white;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.barra{
+    text-align: center;
+    background-color: black;
+    color: red;
+    text-decoration: none;
+}
+
+.barra > a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(1, 255, 1);
+    background-color: inherit;
+    margin-right: 100px;
+}
+
+.conocenos{
+    position: relative;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.conocenos:hover .opciones {
+    display: block;
+}
+
+h4{
+    color: rgb(1, 255, 1);
+    background-color: black;
+    font-size: 20px
+}
+
+.opciones {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.opciones >a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: blueviolet;
+}
+
+.opciones a:hover{
+    background-color: #f1f1f1;
+}
+
+.titulo2{
+    z-index: 1;
+    margin-top: 140px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: coral;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+p{
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.texto .foto{
+    float: left; /* Hacer que la imagen flote a la izquierda */
+    margin-right: 30px; /* Agregar margen a la derecha para separar la imagen del texto */
+    position: relative;
+}
+
+.texto{
+    overflow: hidden; /* Limpiar el float */
+}
+
+.texto {
+    margin-left: 80px; /* Ajustar el margen izquierdo para alinear el texto al lado de la imagen */
+    font-size: 20px;
+}
+
+.texto .foto2{
+    float: right; /* Hacer que la imagen flote a la izquierda */
+    margin: 20px 20px 10px 10px;
+    position: relative;
+}
+
+.boton{
+    position: relative;
+    left: 90%;
+    height: 45px;
+    width: 100px;
+    font-size: 25px;
+    background-color: blue;
+    margin-bottom: 10px;
+}
+button:hover{
+    background-color: white;
+}
