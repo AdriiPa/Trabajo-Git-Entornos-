@@ -1,0 +1,267 @@
+.principal {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecera_principal{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #444;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.pagina_principal {
+    padding: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(Imagenes/ImagenFondo.jpg);
+    left: 0px;
+}
+
+
+h3{
+    color: yellow;
+    font-size: 30px;
+    background-color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-right: 80%;
+    font-size: 20px;
+    color: azure;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+a{
+    text-decoration: none;
+    color:green;
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: #f2f2f2;
+}
+.bienvenida{
+    color:yellow;
+    font-size: 40px;
+    background-color: #333;
+}
+.conocenos{
+    font-size: 40px;
+    color: #ddd;
+}
+.palas{
+    display: block;
+    padding-right: 100%;
+    height: 300px;
+    width: 700px;
+}
+.pag_palas{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.cabecera{
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.seccion_palas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 10px;
+}
+
+.pala {
+    width: 30%;
+    margin: 10px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.pala img {
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.palaTitulo {
+    color:darkred;
+    font: size 50px;
+}
+
+.pala p {
+    color: #666;
+    font-size: 20px;
+}
+
+.pala span {
+    color: #f00;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.cuerpo_conocenos {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.cabecera_conocenos{
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.seccion_concocenos{
+    text-align: justify;
+    padding: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.social-links {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    color: #fff;
+    margin:10px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.parrafo_acerca{
+    color:black;
+    font-size: 20px;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    opacity:0,3;
+}
+.cuerpoPala{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.cabeceraPala{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.seccionPala{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagenPala{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.p_Pala{
+    line-height: 1.6;
+    color: black;
+}
+.h1Pala{
+    color:brown;
+}
+
+.h2Pala{
+    color: #333;
+}
+
+.precioPala{
+    color: #e44d26;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
